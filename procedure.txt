@@ -1,0 +1,7 @@
+cd C:\Megha\Engineering\Project\ECG-GAN
+python -m venv ecg_env
+ecg_env\Scripts\activate
+pip install tensorflow wfdb numpy matplotlib
+python prepare_data.py
+python train_gan.py
+python generate_final_ecg.py
